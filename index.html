@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .error {
+        outline: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <div class="Current__container">
+          <input
+            type="number"
+            name="current"
+            id="current__input"
+            min="0"
+            max="100"
+            value="30"
+            disabled
+          />
+          <input
+            type="range"
+            name="current"
+            id="current__slider"
+            min="0"
+            max="100"
+            value="30"
+          />
+        </div>
+        <div class="Current__container">
+          <input
+            type="number"
+            name="days__one"
+            id="days__one__input"
+            min="0"
+            max="100"
+            value="15"
+            disabled
+          />
+          <input
+            type="range"
+            name="days__one"
+            id="days__one__slider"
+            min="0"
+            max="100"
+            value="15"
+          />
+        </div>
+        <div class="Current__container">
+          <input
+            type="number"
+            name="days__one"
+            id="days__two__input"
+            min="0"
+            max="100"
+            value="15"
+            disabled
+          />
+          <input
+            type="range"
+            name="days__two"
+            id="days__two__slider"
+            min="0"
+            max="100"
+            value="15"
+          />
+        </div>
+        <div class="Current__container">
+          <input
+            type="number"
+            name="days__three"
+            id="days__three__input"
+            min="0"
+            max="100"
+            value="40"
+            disabled
+          />
+          <input
+            type="range"
+            name="days__three"
+            id="days__three__slider"
+            min="0"
+            max="100"
+            value="40"
+          />
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/calc2.js"></script>
+  </body>
+</html>
